@@ -1,0 +1,11 @@
+* {
+  font-size: 20px;
+}
+
+a[href*="yandex"] {
+  color: #f70;
+}
+
+a[href*="google"] {
+  color:#666;
+}
