@@ -1,0 +1,65 @@
+ .container h1 {
+  text-align: right;
+  color:orange;
+              }
+
+  p {
+    text-align: left;
+    font-size: 18px;
+    }
+
+  .container>p>span {
+                    color:red;
+                    font-size: 30px;
+                    font-weight: bold;
+                    }
+
+.container>p>em {
+  color: white;
+  background-color: green;
+  font-weight: bold;
+}
+
+.or {
+  color:orange;
+  } 
+
+.blue {
+  color: blue;
+}  
+
+li>span {
+  font-weight: bold;
+}
+
+.veget {
+  color:red;
+}
+
+.grey {
+  color: grey;
+}
+
+.green {
+  color:green; 
+}
+
+table,td {
+  border:1px solid gray;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+  color: orange;
+  font-weight: normal;
+}
+
+.tabletd {
+  background-color: green;
+  color: white;
+}
+
+
+
