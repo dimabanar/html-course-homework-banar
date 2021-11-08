@@ -1,0 +1,30 @@
+* {
+  font-size:25px;
+}
+
+table {
+  width:100%;
+}
+
+td {
+  border-bottom: 1px solid #bbbbbe;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td:nth-child(2n+1) {
+  background-color: #f7f7b0;
+}
+
+td:nth-child(1) {
+  background-color: white;
+}
+
+.row td:nth-child(2n) {
+  background-color: #DDEBF8;
+}
+
+.row td:nth-child(1) {
+  background-color: #DDEBF8;
+}
+
