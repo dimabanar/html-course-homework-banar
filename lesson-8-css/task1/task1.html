@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Task1</title>
+</head>
+<body>
+  <h1>Sign up to the app</h1>
+  <form action="#" name="signup" id="signup" method="post">
+    <fieldset>
+      <legend>Personal information:</legend>
+      <div class="first">
+        <label for="firstname">First name:</label> <br />
+        <input type="text" name="firstname" id="firstname" placeholder="Mickey" required>
+      </div>
+      <div class="first">
+        <label for="lastname">Last name:</label> <br />
+        <input type="text" name="lastname" id="lastname" placeholder="Mouse" required>
+      </div>
+      <div>
+        <label for="">Self-presentation:</label> <br />
+        <textarea name="self-pr" id="self-pr" cols="30" rows="10" placeholder="The cat was playing in the garden." required></textarea>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Car info (the brand):</legend>
+      <select name="carinfo" id="carinfo" form="signup">
+        <option value="Volvo" selected>Volvo</option>
+        <option value="Saab">Saab</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Audi">Audi</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Choose one:</legend>
+      <input type="radio" name="gender" id="gender_male" value="Male" checked> Male <br />
+      <input type="radio" name="gender" id="gender_female" value="Female"> Female <br />
+      <input type="radio" name="gender" id="gender_other" value="Other"> Other
+    </fieldset>
+
+    <fieldset>
+      <legend>Choose many:</legend>
+      <input type="checkbox" name="many" id="many_bike"> I have a bike <br />
+      <input type="checkbox" name="many" id="many_car"> I have a car
+    </fieldset>
+
+    <div>
+      <input type="submit" value="Submit">
+      <input type="button" value="Cancel">
+    </div>
+  </form>
+</body>
+</html>

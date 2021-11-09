@@ -1,0 +1,49 @@
+* {
+  font-family: 'Oswald',sans-serif;
+  font-size: 18px;
+}
+
+nav {
+  background-color: #A64DFF;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.menu {
+  padding:0;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 40px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.menu li {
+  padding:0px 5px;
+}
+
+.menu li:first-child {
+  margin-left: 58px;
+}
+
+.menu li:last-child {
+  margin-left: 350px;
+}
+
+.menu li a:hover {
+  color:#9F9F9F;
+}
+
+.menu li:hover {
+  background-color: #eeeeee;
+}
