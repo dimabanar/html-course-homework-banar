@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+}
+.wrapper {
+  background-color: black;
+}
+.container {
+  margin:0 auto;
+  padding: 55px 0 80px 0;
+  width: 85%; 
+  overflow:hidden;
+}
+.container > h2 {
+  text-transform: uppercase;
+  color: #3170A8;
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 0.02em;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+.container > h2 > span {
+  color:#ee8129;
+}
+.triangle {
+  float: left;
+  background-color: white;
+  width: 1px;
+  border: 15px solid;
+  border-color: black white black black;
+  margin-top: 45px;
+}
+.clients {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.client1 {
+  float: left;
+}
+.client2 {
+  float: right;
+}
+.client1 > img, .client2 > img {
+  width: 113px;
+  float: left;
+}
+.client-massage {
+  background-color: white;
+  float: left;
+  padding: 16px;
+  width: 360px;
+}
+.client-massage > p:last-child {
+  color:#88a0c2;
+  border-top: dotted 3px #3e3e3e;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.client-info p {
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  color:#5e93cd;
+  padding-bottom: 10px;
+}
+.client-name {
+  float: left;
+}
+.client-post {
+  float: right;
+}
+.clear {
+  clear: both;
+}
