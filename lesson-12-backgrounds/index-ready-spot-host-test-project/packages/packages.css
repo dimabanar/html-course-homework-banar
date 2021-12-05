@@ -1,0 +1,71 @@
+body {
+  background-image: url("../images/plans-background.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  box-sizing: border-box;
+  background-size: 100% auto;
+}
+main {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+section {
+  position: relative;
+  background-color:rgba(179, 164, 164, 0.9);
+  width: 75%;
+  border: 4px solid #8B726A;
+  top: 80px;
+  padding: 20px 20px 40px 20px;
+}
+section > a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background-color: white;
+  color: #61605f;
+  border: 1px solid #7B7978;
+}
+.free-plan, .premium-plan {
+  margin-top: 25px;
+}
+.free-plan {
+  text-align: right;
+  float: right;
+}
+.premium-plan {
+  background-color: rgba(157, 126, 121, 0.9);
+}
+.premium-plan > h3 {
+  color: white;
+}
+.premium-plan > h4 {
+  color: #B8B7B0;
+}
+.recom {
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #D03F32;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  right: 20px;
+  font-weight: 600;
+  border: 1px solid #bd3a2e;
+}
+.clear {
+  clear: both;
+}
+.premium-plan {
+  float: left;
+}
+section > a:hover {
+  border: 1px solid #faf5f3;
+  color:#703b37;
+}
